@@ -22,6 +22,9 @@ class Product(models.Model):
         return (f'title: {self.title}, description: {self.description}, price: {self.price},'
                 f' date_add: {self.date_add}')
 
+    def get_date(self):
+        return self.date_add
+
 
 class Order(models.Model):
     client = models.ForeignKey(Client, on_delete=models.CASCADE)
@@ -32,3 +35,4 @@ class Order(models.Model):
     def __str__(self):
         return (f'client: {self.client}, product: {self.product}, total_price: {self.total_price},'
                 f' date_add: {self.date_add}')
+

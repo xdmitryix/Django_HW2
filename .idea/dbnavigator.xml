@@ -29,7 +29,6 @@
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files>
       <object connection-id="1ef44b2a-cf03-46fa-a10a-3ba6656566c5" object-ref="schemas/db/tables/myapp_client" />
-      <object connection-id="1ef44b2a-cf03-46fa-a10a-3ba6656566c5" object-ref="schemas/db/tables/myapp_product" />
       <object connection-id="1ef44b2a-cf03-46fa-a10a-3ba6656566c5" object-ref="schemas/db/tables/myapp_order" />
     </open-files>
   </component>
@@ -100,7 +99,7 @@
           <tns-folder value="" />
           <tns-profile value="" />
           <files>
-            <file path="D:\учеба\Django\Homework\HW2\Django_HW2\myproject\db.sqlite3" schema="db" />
+            <file path="D:\учеба\Django\Homework\Howework_3\myproject\db.sqlite3" schema="db" />
           </files>
           <type value="NONE" />
           <user value="" />
