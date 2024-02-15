@@ -28,6 +28,8 @@
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files>
+      <object connection-id="1ef44b2a-cf03-46fa-a10a-3ba6656566c5" object-ref="schemas/db/tables/myapp_order" />
+      <object connection-id="1ef44b2a-cf03-46fa-a10a-3ba6656566c5" object-ref="schemas/db/tables/auth_user" />
       <object connection-id="1ef44b2a-cf03-46fa-a10a-3ba6656566c5" object-ref="schemas/db/tables/myapp_product" />
     </open-files>
   </component>
@@ -42,6 +44,7 @@
         <condition column="id" operator="=" value="" active="true" />
       </filter>
     </filter-actions>
+    <filter-actions connection-id="1ef44b2a-cf03-46fa-a10a-3ba6656566c5" dataset="db.auth_user" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="1ef44b2a-cf03-46fa-a10a-3ba6656566c5" dataset="db.myapp_client" active-filter-id="8e9f505d-a306-46d6-91ca-f49f220372a9">
       <filter id="8e9f505d-a306-46d6-91ca-f49f220372a9" name="Filter 1" temporary="false" custom-name="false" type="basic" join-type="AND">
         <condition column="id" operator="=" value="" active="true" />
@@ -96,7 +99,7 @@
           <tns-folder value="" />
           <tns-profile value="" />
           <files>
-            <file path="D:\учеба\Django\Homework\Homework_four\myproject\db.sqlite3" schema="db" />
+            <file path="D:\учеба\Django\Homework\Homework_five\myproject\db.sqlite3" schema="db" />
           </files>
           <type value="NONE" />
           <user value="" />
